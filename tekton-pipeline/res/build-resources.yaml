@@ -19,7 +19,7 @@ spec:
   params:
     - name: url
       # use external registry
-      value: quay.io/ooteniya/todo-quarkus
+      value: quay.io/wserafin/todo-quarkus
       # if you are on OpenShift uncomment the line below
       #value: "image-registry.openshift-image-registry.svc:5000/resource-estimation/todo"
 ---

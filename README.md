@@ -347,10 +347,10 @@ TEST SUITE: None
  
 Now that we have Openshift-pipeline, postresql and vertical pod autoscaler operators installed, let's set up Github and quay.io secrets and add them to Openshift-pipeline service account.
  
-#### Create a quay.io authentication secret
+### Create a quay.io authentication secret
 Generate and store in OpenShift the quay.io authentication secret with the following steps...
 
-1.Create an account on quay.io if you do not already have one.
+1. Create an account on quay.io if you do not already have one.
 2. Login to quay.io in the web user interface and click on the username in the top right corner.
 3. Select account settings.
 4. Click the blue hyperlink ‘Generate Encrypted Password’.

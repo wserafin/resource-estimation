@@ -6,7 +6,7 @@ spec:
   type: git
   params:
     - name: url
-      value: https://github.com/ooteniya1/resource-estimation.git
+      value: https://github.com/wserafin/resource-estimation.git
     - name: revision
       value: master
 ---
@@ -31,7 +31,7 @@ spec:
   type: git
   params:
     - name: url
-      value: https://github.com/ooteniya1/resource-estimation.git
+      value: https://github.com/wserafin/resource-estimation.git
     - name: revision
       value: master
 ---
@@ -44,7 +44,7 @@ spec:
   params:
     - name: url
       # use external registry
-      value: quay.io/ooteniya/todo-spring
+      value: quay.io/wserafin/todo-spring
       # if you are on OpenShift uncomment the line below
       #value: "image-registry.openshift-image-registry.svc:5000/resource-estimation/todo"
 ---

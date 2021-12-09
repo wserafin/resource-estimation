@@ -358,8 +358,7 @@ Generate and store in OpenShift the quay.io authentication secret with the follo
 6. Select the second option in the pop up window for Kubernetes secret.
 7. Download the file.
 8. Create a repository in the quay.io account to match the OpenShift project name. In this example the project name is liberty-rest
-9. Edit the secret file to change the name of the secret to be: quay-auth-secret.
-10. Create the secret using the command: oc create -f <filename>
+9. Add generated token in ../todo-spring-quarkus/k8s/quay-secret-enc.yaml file.
 
 
 ```
